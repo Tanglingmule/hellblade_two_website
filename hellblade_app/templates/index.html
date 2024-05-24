@@ -3,9 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main Page</title>
+    <title>Senua's Hellblade II</title>
+    {% load static %}
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="{% static 'css\style.css' %}">
+    <script src="{% static 'javascript/index.js' %}"></script>
+    <script>
+        
+    </script>
 </head>
 <body>
-    <h1>Hello, world.</h1>
+    <div id="scroll-animate">
+        <div id="scroll-animate-main">
+            <div class="wrapper-parallax">
+                <header>
+                    <h1>Hellblade II</h1>
+                </header>
+
+                <section class="content">
+                    <h1>Content</h1>
+                </section>
+
+                <footer>
+                    <h1>Footer</h1>
+                </footer>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
